@@ -141,12 +141,8 @@ header .small-container .first-container .menù ul > * {
     background-color: white;
 }
 
-.grey {
-    background-color: grey;
-}
-
-.lightblue {
-    background-color: cornflowerblue;
+.lightgrey {
+    background-color: lightgrey;
 }
 
 .third-container {
@@ -158,23 +154,68 @@ header .small-container .first-container .menù ul > * {
 }
 
 .block {
+    width: 55%;
     flex-grow: 1.5;
     height: 300px;
-    border: 1px dashed black;
+    display: flex;
+    justify-content: flex-end
+}
+
+.big-container .third-container .block > img {
+    height: 100%;
 }
 
 .block-2 {
+    width: 45%;
     flex-grow: 1;
     height: 300px;
-    border: 1px dashed black;
 }
 
-.navajowhite {
-    background-color: navajowhite;
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
 }
 
-#bigger {
-    width: calc(380px * 2);
+.narrower-content {
+    width: 70%;
+    padding-top: 17px;
+}
+
+.narrower-content {
+    width: 70%;
+    padding-top: 17px;
+}
+
+.big-container .third-container .block-2 .narrower-content > h1 {
+    font-size: 36px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.big-container .third-container .block-2 .narrower-content > p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+}
+
+.big-container .third-container .block-2 .flex-right .narrower-content > h1 {
+    font-size: 36px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.big-container .third-container .block-2 .flex-right .narrower-content > p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+}
+
+.block-with-flex-left {
+    width: 55%;
+    flex-grow: 1.5;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .very-big-container {
