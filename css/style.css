@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    HEADER
+*/
+header {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.small-container {
+    max-width: 1600px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casella-1 {
+    flex-grow: 1;
+    height: 30px;
+}
+
+.casella-2 {
+    flex-grow: 2;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+header .small-container .first-container .casella-2 ul {
+    list-style-type: none;
+}
+
+header .small-container .first-container .casella-2 ul > * {
+    display: inline-block;
+    color: white;
+    padding: 0 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
+
+.casella-3 {
+    flex-grow: 1;
+    height: 30px;
+    text-align: end;
+    line-height: 30px;
+}
+
+.button {
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    padding: 4px;
+    border-radius: 16px;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.font-black {
+    color: black;
+}
+
+.big-container {
+    max-width: 1600px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-container {
+    width: 60%;
+    height: 260px;
+}
+
+.big-container .second-container h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.big-container .second-container p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 0 120px;
+}
+
+.vertical-centering {
+    padding-top: 69.5px;
+    padding-bottom: 69.5px; /* WTF? */
+}
+
+/* 
+    MAIN
+*/
+.big-container {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.higher {
+    min-height: 350px;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.lightblue {
+    background-color: cornflowerblue;
+}
+
+.third-container {
+    width: 75%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    flex-grow: 1.5;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.block-2 {
+    flex-grow: 1;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.navajowhite {
+    background-color: navajowhite;
+}
+
+#bigger {
+    width: calc(380px * 2);
+}
+
+.very-big-container {
+    max-width: 1600px;
+    min-height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-container {
+    width: 75%;
+    height: 600px;
+    border: 1px dashed black;
+}
+
+.green {
+    background-color: green;
+}
+
+.big-container-special {
+    max-width: 1600px;
+    min-height: 300px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.black {
+    background-color: black;
+}
+
+.flex {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-container {
+    min-height: 300px;
+    margin: 3px auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.5;
+    background-color: red;
+    border: 1px dashed yellow;
+}
+
+.last-container-2 {
+    min-height: 300px;
+    margin: 3px auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: red;
+    border: 1px dashed yellow;
+}
+
+.block-x-1 {
+    flex-grow: 2;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.block-x {
+    flex-grow: 1;
+    height: 300px;
+    border: 1px dashed white;
+}
+
+.lightcoral {
+    background-color: lightcoral;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+/* 
+    FOOTER
+*/
+.logo-button-container {
+    width: calc(380px * 3);
+    height: 30px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasto {
+    line-height: 14px;
+    padding: 8px;
+    background-color: lightcoral;
+    border: 1px dashed black;
+}
