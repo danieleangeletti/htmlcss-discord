@@ -28,23 +28,25 @@ header {
     align-items: center;
 }
 
-.casella-1 {
+.logo {
     flex-grow: 1;
     height: 30px;
+    width: 5%;
 }
 
-.casella-2 {
+.menù {
     flex-grow: 2;
     height: 30px;
     text-align: center;
     line-height: 30px;
+    width: 90%;
 }
 
-header .small-container .first-container .casella-2 ul {
+header .small-container .first-container .menù ul {
     list-style-type: none;
 }
 
-header .small-container .first-container .casella-2 ul > * {
+header .small-container .first-container .menù ul > * {
     display: inline-block;
     color: white;
     padding: 0 8px;
@@ -52,11 +54,12 @@ header .small-container .first-container .casella-2 ul > * {
     font-weight: 400;
 }
 
-.casella-3 {
+.login {
     flex-grow: 1;
     height: 30px;
     text-align: end;
     line-height: 30px;
+    width: 5%;
 }
 
 .button {
@@ -71,8 +74,16 @@ header .small-container .first-container .casella-2 ul > * {
     background-color: white;
 }
 
+.black-background {
+    background-color: black;
+}
+
 .font-black {
     color: black;
+}
+
+.font-white {
+    color: white;
 }
 
 .big-container {
@@ -86,6 +97,9 @@ header .small-container .first-container .casella-2 ul > * {
 .second-container {
     width: 60%;
     height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .big-container .second-container h1 {
@@ -102,11 +116,11 @@ header .small-container .first-container .casella-2 ul > * {
     color: white;
     text-align: center;
     padding: 0 120px;
+    margin-bottom: 12px;
 }
 
-.vertical-centering {
-    padding-top: 69.5px;
-    padding-bottom: 69.5px; /* WTF? */
+.horizontal-centering {
+    text-align: center;
 }
 
 /* 
