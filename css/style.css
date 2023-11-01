@@ -85,7 +85,7 @@ header .small-container .first-container .menù ul > * {
 
 .big-container {
     max-width: 1600px;
-    min-height: 300px;
+    min-height: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +113,7 @@ header .small-container .first-container .menù ul > * {
     color: white;
     text-align: center;
     padding: 0 120px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .horizontal-centering {
@@ -123,13 +123,6 @@ header .small-container .first-container .menù ul > * {
 /* 
     MAIN
 */
-.big-container {
-    max-width: 1600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .white {
     background-color: white;
 }
