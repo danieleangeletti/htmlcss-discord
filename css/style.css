@@ -29,17 +29,15 @@ header {
 }
 
 .logo {
-    flex-grow: 1;
-    height: 30px;
     width: 5%;
+    height: 30px;
 }
 
 .menù {
-    flex-grow: 2;
+    width: 90%;
     height: 30px;
     text-align: center;
     line-height: 30px;
-    width: 90%;
 }
 
 header .small-container .first-container .menù ul {
@@ -55,11 +53,10 @@ header .small-container .first-container .menù ul > * {
 }
 
 .login {
-    flex-grow: 1;
+    width: 5%;
     height: 30px;
     text-align: end;
     line-height: 30px;
-    width: 5%;
 }
 
 .button {
@@ -155,7 +152,6 @@ header .small-container .first-container .menù ul > * {
 
 .block {
     width: 55%;
-    flex-grow: 1.5;
     height: 300px;
     display: flex;
     justify-content: flex-end
@@ -167,7 +163,6 @@ header .small-container .first-container .menù ul > * {
 
 .block-2 {
     width: 45%;
-    flex-grow: 1;
     height: 300px;
 }
 
@@ -212,7 +207,6 @@ header .small-container .first-container .menù ul > * {
 
 .block-with-flex-left {
     width: 55%;
-    flex-grow: 1.5;
     height: 300px;
     display: flex;
     justify-content: flex-start;
@@ -258,23 +252,23 @@ header .small-container .first-container .menù ul > * {
 }
 
 .last-container {
+    width: calc(100% / 3);
     min-height: 300px;
     margin: 3px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 0.5;
     background-color: red;
     border: 1px dashed yellow;
 }
 
 .last-container-2 {
+    width: calc(100% - (100% / 3));
     min-height: 300px;
     margin: 3px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
     background-color: red;
     border: 1px dashed yellow;
 }
