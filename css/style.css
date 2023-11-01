@@ -1,7 +1,81 @@
+/* 
+    RESET
+*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+.small-container {
+    max-width: 1600px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    padding: 4px;
+    border-radius: 16px;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.lightgrey-background {
+    background-color: lightgrey;
+}
+
+.dodgerblue-background {
+    background-color: dodgerblue;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.font-black {
+    color: black;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-special-blue {
+    color: #7189DA;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.big-container {
+    max-width: 1600px;
+    min-height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-centering {
+    text-align: center;
+}
+
+.very-big-container {
+    max-width: 1600px;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 
@@ -11,14 +85,6 @@ header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position: center;
-}
-
-.small-container {
-    max-width: 1600px;
-    min-height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .first-container {
@@ -59,38 +125,6 @@ header .small-container .first-container .menù ul > * {
     line-height: 30px;
 }
 
-.button {
-    text-decoration: none;
-    font-family: 'Fredoka', sans-serif;
-    font-weight: 400;
-    padding: 4px;
-    border-radius: 16px;
-}
-
-.white-background {
-    background-color: white;
-}
-
-.black-background {
-    background-color: black;
-}
-
-.font-black {
-    color: black;
-}
-
-.font-white {
-    color: white;
-}
-
-.big-container {
-    max-width: 1600px;
-    min-height: 370px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .second-container {
     width: 60%;
     min-height: 260px;
@@ -116,21 +150,9 @@ header .small-container .first-container .menù ul > * {
     margin-bottom: 16px;
 }
 
-.horizontal-centering {
-    text-align: center;
-}
-
 /* 
     MAIN
 */
-.white {
-    background-color: white;
-}
-
-.lightgrey {
-    background-color: lightgrey;
-}
-
 .third-container {
     width: 75%;
     min-height: 300px;
@@ -158,11 +180,6 @@ header .small-container .first-container .menù ul > * {
 .flex-right {
     display: flex;
     justify-content: flex-end;
-}
-
-.narrower-content {
-    width: 70%;
-    padding-top: 17px;
 }
 
 .narrower-content {
@@ -201,14 +218,6 @@ header .small-container .first-container .menù ul > * {
     justify-content: flex-start;
 }
 
-.very-big-container {
-    max-width: 1600px;
-    min-height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .fourth-container {
     width: 75%;
     min-height: 680px;
@@ -244,10 +253,6 @@ header .small-container .first-container .menù ul > * {
     line-height: 50px;
 }
 
-.dodgerblue-background {
-    background-color: dodgerblue;
-}
-
 .star-container {
     width: 65%;
     height: 50px;
@@ -267,10 +272,6 @@ header .small-container .first-container .menù ul > * {
     justify-content: center;
     align-items: center;
 
-}
-
-.black {
-    background-color: black;
 }
 
 .flex {
@@ -309,14 +310,6 @@ header .small-container .first-container .menù ul > * {
 
 .big-container-special .flex .last-container-2 .block-x ul {
     list-style-type: none;
-}
-
-.special-blue {
-    color: #7189DA;
-}
-
-.weight-500 {
-    font-weight: 500;
 }
 
 .block-x-1 {
