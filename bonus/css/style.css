@@ -1,0 +1,375 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+.small-container {
+    max-width: 1600px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    padding: 4px;
+    border-radius: 16px;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.lightgrey-background {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.dodgerblue-background {
+    background-color: dodgerblue;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.font-black {
+    color: black;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-special-blue {
+    color: #7189DA;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.big-container {
+    max-width: 1600px;
+    min-height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-centering {
+    text-align: center;
+}
+
+.very-big-container {
+    max-width: 1600px;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave img {
+    width: 100%;
+    display: block;
+    opacity: 0.15;
+}
+
+.upside-down-wave img {
+    width: 100%;
+    display: block;
+    opacity: 0.15;
+    transform: rotate(-180deg);
+}
+
+/* 
+    HEADER
+*/
+header {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.first-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 5%;
+    height: 30px;
+}
+
+.menù {
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+header .small-container .first-container .menù ul {
+    list-style-type: none;
+}
+
+header .small-container .first-container .menù ul > * {
+    display: inline-block;
+    color: white;
+    padding: 0 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
+
+.login {
+    width: 5%;
+    height: 30px;
+    text-align: end;
+    line-height: 30px;
+}
+
+.second-container {
+    width: 60%;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-container .second-container h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.big-container .second-container p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 0 120px;
+    margin-bottom: 16px;
+}
+
+/* 
+    MAIN
+*/
+.third-container {
+    width: 75%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 55%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.big-container .third-container .block > img {
+    height: 100%;
+}
+
+.block-2 {
+    width: 45%;
+    height: 300px;
+}
+
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.narrower-content {
+    width: 70%;
+    padding-top: 17px;
+}
+
+.big-container .third-container .block-2 .narrower-content > h1 {
+    font-size: 36px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.big-container .third-container .block-2 .narrower-content > p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+}
+
+.big-container .third-container .block-2 .flex-right .narrower-content > h1 {
+    font-size: 36px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.big-container .third-container .block-2 .flex-right .narrower-content > p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+}
+
+.block-with-flex-left {
+    width: 55%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fourth-container {
+    width: 75%;
+    min-height: 680px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-h1-container {
+    width: 75%;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.very-big-container .fourth-container .flex-center .p-h1-container > h1 {
+    font-size: 36px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.very-big-container .fourth-container .flex-center .p-h1-container > p {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+}
+
+.very-big-container .fourth-container .flex-center .star-container > h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.star-container {
+    width: 65%;
+    height: 50px;
+    background-image: url("../img/stars.svg");
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* 
+    FOOTER
+*/
+.big-container-special {
+    max-width: 1600px;
+    min-height: 480px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex {
+    width: 75%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-container {
+    width: calc(100% / 3);
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-container-special .flex .last-container .block-x-1 ul > * {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.big-container-special .flex .last-container-2 .block-x ul > * {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.big-container-special .flex .last-container .block-x-1 ul {
+    list-style-type: none;
+}
+
+.big-container-special .flex .last-container-2 .block-x ul {
+    list-style-type: none;
+}
+
+.block-x-1 {
+    flex-grow: 2;
+    height: 400px;
+}
+
+#twitter {
+    padding-right: 12px;
+}
+
+#instagram {
+    padding-right: 12px;
+}
+
+#facebook {
+    padding-right: 12px;
+}
+
+.last-container-2 {
+    width: calc(100% - (100% / 3));
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-x {
+    flex-grow: 1;
+    height: 400px;
+}
+
+.big-container-special .flex .last-container-2 .block-x ul li:first-child {
+    color: #7189DA;
+}
+
+.logo-button-container {
+    width: calc(380px * 3);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-container-2 {
+    max-width: 1600px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
