@@ -297,6 +297,10 @@ header .small-container .first-container .menù ul > * {
     line-height: 32px;
 }
 
+#ita {
+    height: 16px;
+}
+
 .big-container-special .flex .last-container-2 .block-x ul > * {
     color: white;
     font-family: 'Fredoka', sans-serif;
